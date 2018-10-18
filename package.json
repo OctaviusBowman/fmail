@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
+    "server:watch": "npx nodemon ./server.js",
+    "webpack:watch": "npx webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -28,6 +30,8 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.4",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   }
